@@ -5,8 +5,9 @@ These projects were completed in my sophomore computer architecture course. As a
 Here is the data bus of my CPU
 
 <div align="center">
-  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/tree/main/img/frontimg.png">
+  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/blob/main/img/frontimg.png">
 </div>
+
 
 While using it, you can save machine instruction in the RAM by using SW bus, and execute. There are total 5 types of basic instruction:
 
@@ -24,7 +25,7 @@ After wrote some instruction into RAM, and click the "Disable writing into RAM" 
 Here is the microprogram branching system.
 
 <div align="center">
-  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/tree/main/img/branch.png">
+  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/blob/main/img/branch.png">
 </div>
 
 ***
@@ -37,13 +38,13 @@ Here is the microprogram branching system.
 Turn on this two button. The first button used to allow next data write into RAM, and the second button used to turn on the micro program controller. If you don't turn on the second button, you will need to control each switch on the data bus by yourself.
 
 <div align="center">
-  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/tree/main/img/input_prepare.png">
+  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/blob/main/img/input_prepare.png">
 </div>
 
 Click the clock button 4 times, to boot the system.
 
 <div align="center">
-  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/tree/main/img/clock.png">
+  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/blob/main/img/clock.png">
 </div>
 
 Adjust SW bus input, make it become 1001 xx 00 (1001 stand for load instruction, xx stand for the number in this bit will not change the result, and the last 2 bits 00 stand for register 00), and click the clock button 4 times. Because logisim is not a real circuit simulation, there will be some transfer delay, so I have to do some trick to solve this problem. Therefore, you will need to click 4 times to load the first instruction code into RAM.
@@ -60,7 +61,7 @@ After that, you will adjust SW bus input, and make it become the following statu
 Because there are total 7 instructions, therefore, you will get number 7 in the RAM address selecting register
 
 <div align="center">
-  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/tree/main/img/after_load_instruction.png">
+  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/blob/main/img/after_load_instruction.png">
 </div>
 
 
@@ -69,7 +70,7 @@ Because there are total 7 instructions, therefore, you will get number 7 in the 
 Turn off the button that used to allow next data write into RAM, and start the clock, you will get the next result
 
 <div align="center">
-  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/tree/main/img/add.png">
+  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/blob/main/img/add.png">
 </div>
 
 0111 0000 and 0000 1110 will be added successfully, and the result 0111 1110 will appear in the data bus.
@@ -77,8 +78,6 @@ Turn off the button that used to allow next data write into RAM, and start the c
 Here is the final execution process
 
 <div align="center">
-  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/tree/main/img/show.gif">
+  <img src="https://github.com/Jingxiang-Zhang/Logisim_CPU/blob/main/img/show.gif">
 </div>
 
-
-To see more about the project, please click [here](https://github.com/Jingxiang-Zhang/Computer-Graphics).
