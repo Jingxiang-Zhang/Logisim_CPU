@@ -1,20 +1,10 @@
----
-lng_pair: UN2_CA
-title: Designs Multi-cycle CPU by Logisim 
-author: Jingxiang Zhang
-category: Course Project
-tags: [Computer Architecture]
-img: ":UN_2_CA/show.gif"
-date: 2019-05-15 00:00:00
----
-
 ### Introduction
 
 These projects were completed in my sophomore computer architecture course. As a new learner of computer architecture area, we simulated the logical circuit by Logisim. While in my free time, I designed a multi-cycle CPU by Logisim to meet my interests. <!-- outline-start --> This CPU use microprogrammed control, instead of hardwired control. <!-- outline-end -->
 
 Here is the data bus of my CPU
 
-![data bus](:UN_2_CA/frontimg.png){:data-align="center"}
+![data bus](:https://github.com/Jingxiang-Zhang/Logisim_CPU/tree/main/img/frontimg.png){:data-align="center"}
 
 
 While using it, you can save machine instruction in the RAM by using SW bus, and execute. There are total 5 types of basic instruction:
@@ -32,7 +22,7 @@ After wrote some instruction into RAM, and click the "Disable writing into RAM" 
 
 Here is the microprogram branching system.
 
-![branching system](:UN_2_CA/branch.png){:data-align="center"}
+![branching system](:https://github.com/Jingxiang-Zhang/Logisim_CPU/tree/main/img/branch.png){:data-align="center"}
 
 
 ***
